@@ -29,11 +29,11 @@ widgets:
   - code: sb2_demo_report_button
     config: null
     pos: 5
-  - code: entando-widget-navigation_bar
+  - code: entando_widget_navigation_bar
     config:
       navSpec: code(sb2_dashboard)
     pos: 6
-  - code: entando-widget-navigation_bar
+  - code: entando_widget_navigation_bar
     config:
       navSpec: code(sb2_test) + code(sb2_test2).subtree(1)
     pos: 7
