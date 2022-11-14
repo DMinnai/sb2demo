@@ -24,8 +24,6 @@ components:
     - pageModels/sbdemo_template-descriptor.yaml
   fragments:
     - fragments/entando_widget_navigation_bar-descriptor.yaml
-    - fragments/entando_widget_navigation_bar-descriptor.yaml
-    - fragments/entando_widget_navigation_bar_include-descriptor.yaml
     - fragments/entando_widget_navigation_bar_include-descriptor.yaml
     - fragments/sbdemo_keycloak_auth-descriptor.yaml
     - fragments/sbdemo_inclusion_header-descriptor.yaml
