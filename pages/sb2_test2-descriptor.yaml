@@ -1,0 +1,13 @@
+code: sb2_test2
+parentCode: sb2_dashboard
+titles:
+  en: Test page 2
+  it: Pagina test 2
+pageModel: sbdemo_template
+ownerGroup: free
+joinGroups: []
+displayedInMenu: true
+seo: false
+charset: utf-8
+status: published
+widgets: []

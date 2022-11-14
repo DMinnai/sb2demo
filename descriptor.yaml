@@ -1,0 +1,42 @@
+code: sb2demo
+description: sb2demo
+bundle-type: system-level-bundle
+components:
+  widgets:
+    - widgets/sb2_approach-descriptor.yaml
+    - widgets/sb2_area_chart-descriptor.yaml
+    - widgets/sb2_color_system-descriptor.yaml
+    - widgets/sb2_demo_report_button-descriptor.yaml
+    - widgets/sb2_earnings__monthly__card-descriptor.yaml
+    - widgets/sb2_earnings_monthly_card-descriptor.yaml
+    - widgets/sb2_footer-descriptor.yaml
+    - widgets/sb2_illustrations-descriptor.yaml
+    - widgets/sb2_login-descriptor.yaml
+    - widgets/sb2_mobile_search-descriptor.yaml
+    - widgets/sb2_nav_item_alerts-descriptor.yaml
+    - widgets/sb2_nav_item_alerts-descriptor.yaml
+    - widgets/sb2_pending_requests_card-descriptor.yaml
+    - widgets/sb2_pie_chart-descriptor.yaml
+    - widgets/sb2_project_card_example-descriptor.yaml
+    - widgets/sb2_sidebar_brand-descriptor.yaml
+    - widgets/sb2_sidebar_message-descriptor.yaml
+    - widgets/sb2_tasks-descriptor.yaml
+    - widgets/sb2_topbar_search-descriptor.yaml
+  pageModels:
+    - pageModels/sbdemo_template-descriptor.yaml
+  fragments:
+    - fragments/entando_widget_navigation_bar-descriptor.yaml
+    - fragments/entando_widget_navigation_bar-descriptor.yaml
+    - fragments/entando_widget_navigation_bar_include-descriptor.yaml
+    - fragments/entando_widget_navigation_bar_include-descriptor.yaml
+    - fragments/sbdemo_keycloak_auth-descriptor.yaml
+    - fragments/sbdemo_inclusion_header-descriptor.yaml
+    - fragments/sbdemo_inclusion_footer-descriptor.yaml
+  pages:
+    - pages/sb2_dashboard-descriptor.yaml
+    - pages/sb2_test-descriptor.yaml
+    - pages/sb2_test2-descriptor.yaml
+    - pages/sb2_test3-descriptor.yaml
+    - pages/sb2_test4-descriptor.yaml
+  labels:
+    - labels/labels-descriptor.yaml
