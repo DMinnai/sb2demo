@@ -1,3 +1,4 @@
+descriptorVersion: v5
 code: sb2_login
 titles:
   en: sb2 Login
@@ -17,7 +18,7 @@ customUi: |-
       <#if (Session.currentUser.entandoUser) >
 
       <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
-          <#if (!Session.currentUser.credentialsNotExpired) > 
+          <#if (!Session.currentUser.credentialsNotExpired) >
           <div class="alert alert-block">
               <span>
                   <@wp.i18n key="USER_STATUS_EXPIRED_PASSWORD" />:
@@ -39,7 +40,7 @@ customUi: |-
 
       <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
           <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
-          <@wp.i18n key="SB2_LOGOUT" /> 
+          <@wp.i18n key="SB2_LOGOUT" />
       </a>
 
 

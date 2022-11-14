@@ -1,3 +1,4 @@
+descriptorVersion: v5
 code: sbdemo_inclusion_header
 guiCode: |-
   <#assign wp=JspTaglibs["/aps-core"]>

@@ -1,3 +1,4 @@
+descriptorVersion: v5
 code: entando_widget_navigation_bar_include
 guiCode: |-
   <#assign wp=JspTaglibs["/aps-core"]>
@@ -35,7 +36,7 @@ guiCode: |-
   <#assign liClass=' class="nav-item "' >
 
   <#if (previousPage.code == currentPageCode)>
-  <#assign liClass=' class="nav-item dropdown-test active"'> 
+  <#assign liClass=' class="nav-item dropdown-test active"'>
   </#if>
 
   <#if previousPage.voidPage>
@@ -46,7 +47,7 @@ guiCode: |-
   <#assign liClass=' class="nav-item dropdown-test-submenu"'>
 
   <#if (previousPage.code == currentPageCode)>
-  <#assign liClass=' class="nav-item dropdown-test-submenu active"'>       
+  <#assign liClass=' class="nav-item dropdown-test-submenu active"'>
   </#if>
 
   <#assign ulClass=' class="nav-item dropdown-test-menu"'>
@@ -64,7 +65,7 @@ guiCode: |-
 
   <!-- add li for parent pages-->
   <#if (previousLevel==0)>
-  <li ${liClass} > 
+  <li ${liClass} >
       </#if>
 
       <a href="${aURL}" ${aClassAndData} >

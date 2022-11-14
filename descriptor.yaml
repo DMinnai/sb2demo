@@ -1,3 +1,4 @@
+
 code: sb2demo
 description: sb2demo
 bundle-type: system-level-bundle
@@ -13,7 +14,6 @@ components:
     - widgets/sb2_illustrations-descriptor.yaml
     - widgets/sb2_login-descriptor.yaml
     - widgets/sb2_mobile_search-descriptor.yaml
-    - widgets/sb2_nav_item_alerts-descriptor.yaml
     - widgets/sb2_nav_item_alerts-descriptor.yaml
     - widgets/sb2_pending_requests_card-descriptor.yaml
     - widgets/sb2_pie_chart-descriptor.yaml
