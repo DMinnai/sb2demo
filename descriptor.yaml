@@ -20,6 +20,7 @@ components:
     - widgets/sb2_sidebar_message-descriptor.yaml
     - widgets/sb2_tasks-descriptor.yaml
     - widgets/sb2_topbar_search-descriptor.yaml
+    - widgets/entando_widget_navigation_bar-descriptor.yaml
   pageModels:
     - pageModels/sbdemo_template-descriptor.yaml
   fragments:
