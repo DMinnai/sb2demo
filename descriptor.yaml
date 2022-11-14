@@ -38,5 +38,3 @@ components:
     - pages/sb2_test2-descriptor.yaml
     - pages/sb2_test3-descriptor.yaml
     - pages/sb2_test4-descriptor.yaml
-  labels:
-    - labels/labels-descriptor.yaml
